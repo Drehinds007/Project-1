@@ -1,12 +1,18 @@
 body {
+  background-color: #c80036;
   margin: 0;
   box-sizing: border-box;
-  background-color: #c80036;
 }
-.header {
-  padding: 5px;
-  text-align: center;
+.header-inner {
+  display: flex;
+  justify-content: center;
 }
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -14,7 +20,6 @@ ul {
   overflow: hidden;
   background-color: #c80036;
 }
-
 li {
   float: left;
 }
@@ -25,7 +30,4 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-.container {
-  display: flex;
 }
