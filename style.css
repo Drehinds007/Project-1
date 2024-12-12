@@ -24,17 +24,43 @@ main {
 }
 
 #main-three {
-  display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+  justify-content: space-evenly;
+  color: aliceblue;
 }
 
-#main-third-image {
+#main-four {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 16px;
+  padding: 16px;
+}
+
+#main-four img {
   width: 30vw;
+  height: fit-content;
 }
-#main-fourth-image {
-  width: 36vw;
+
+.item-one {
+  grid-column: 1/2;
+  grid-row: 1;
 }
+
+.item-two {
+  grid-column: 2/3;
+  grid: 1;
+}
+
+.item-three {
+  grid-column: 3/4;
+  grid-row: 1;
+}
+
 #logo {
   height: 100px;
 }
