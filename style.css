@@ -20,6 +20,20 @@ main {
   text-align: center;
   height: 40vh;
   justify-content: space-evenly;
+  color: aliceblue;
+}
+
+#main-three {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+
+#main-third-image {
+  width: 30vw;
+}
+#main-fourth-image {
+  width: 36vw;
 }
 #logo {
   height: 100px;
@@ -28,6 +42,7 @@ main {
 #main-image {
   width: 100vw;
 }
+
 h1 {
   color: aliceblue;
   text-align: center;
