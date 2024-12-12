@@ -3,31 +3,58 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-.header {
+header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+#main-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 40vh;
+  justify-content: space-evenly;
+}
+#logo {
+  height: 100px;
+}
+
+#main-image {
+  width: 100vw;
 }
 h1 {
   color: aliceblue;
   text-align: center;
 }
-.navbar ul {
-  list-style-type: none;
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   background-color: aliceblue;
+}
+
+nav ul {
+  list-style-type: none;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
 }
-.navbar a {
+nav a {
   color: #c80036;
   text-decoration: none;
   padding: 15px;
   display: block;
   text-align: center;
 }
-.navbar a:hover {
+nav a:hover {
   background-color: #1b622e;
 }
-.navbar li {
+nav li {
   float: left;
 }
